@@ -83,3 +83,28 @@ footer {
     right: 0px;
     text-align: center;
 }
+
+/*----------Portfolio Page----------*/
+
+.portfolio-item {
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.portfolio-item:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.portfolio-item .caption {
+    background: #4aaaa5;
+    bottom: 20px;
+    color: #fff;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    left: 0px;
+    padding: 15px;
+    position: absolute;
+    right:0px;
+    text-align: center;
+}
